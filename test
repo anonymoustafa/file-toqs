@@ -1,0 +1,16 @@
+#!/bin/bash
+#for counter in $(seq 1 5); do
+for filename in ./* ; do
+	folder_name=1
+	while [ $folder_name -lt 5 ] ; do
+	mv $filename ./$folder_name
+	((folder_name++))
+	done
+	#for filename in ./*; do
+	#i=1
+	#while [ $i -lt 7 ] ; do
+	#cp $filename ./$i
+	#((i++))
+	#done	
+done
+
