@@ -1,0 +1,5 @@
+#!/bin/bash 
+leng=(./*)
+declare -i f=${#leng[@]}+3
+g=${#leng[@]}+3
+echo $f $g
